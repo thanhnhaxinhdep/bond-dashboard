@@ -534,7 +534,7 @@ const L = {
     sub:'Top 20 theo giá trị giao dịch · gộp thị trường Riêng lẻ & Công chúng',
     private:'Riêng lẻ', public:'Công chúng', all:'Tất cả', updated:'Cập nhật',
     reqNeed:'Cần dữ liệu mới hơn?', reqBtn:'🔄 Cập nhật ngay',
-    reqFresh:tm=>'✓ Dữ liệu vừa cập nhật lúc '+tm, reqSent:'Đã gửi yêu cầu cập nhật — dữ liệu mới sẽ có sau vài phút, tải lại trang để xem. Cần gấp hơn, liên hệ:',
+    reqFresh:tm=>'✓ Dữ liệu vừa cập nhật lúc '+tm, reqSent:'✓ Đã gửi yêu cầu cập nhật — dữ liệu mới sẽ có sau vài phút, tải lại trang để xem.',
     reqFail:'Không gửi được yêu cầu. Vui lòng liên hệ trực tiếp:',
     detailH:'🔎 Chi tiết Top 20 (tra cứu mã)',
     detailHint:'Gõ mã để lọc & tự nhận Private/Công chúng. Các cột Clean Price/YTM/Duration/Rating/Danh mục sẽ bổ sung ở bước sau (cần file nội bộ).',
@@ -564,7 +564,7 @@ const L = {
     sub:'Top 20 by trading value · Private placement & Public offering combined',
     private:'Private', public:'Public', all:'All', updated:'Updated',
     reqNeed:'Need fresher data?', reqBtn:'🔄 Update now',
-    reqFresh:tm=>'✓ Data just updated at '+tm, reqSent:'Update requested — fresh data in a few minutes, reload to see it. Need it sooner, contact:',
+    reqFresh:tm=>'✓ Data just updated at '+tm, reqSent:'✓ Update requested — fresh data in a few minutes, reload to see it.',
     reqFail:'Could not send the request. Please contact directly:',
     detailH:'🔎 Top 20 details (lookup)',
     detailHint:'Type a code to filter & auto-detect Private/Public. Clean Price/YTM/Duration/Rating/Portfolio columns coming next phase (need internal files).',
@@ -970,13 +970,13 @@ function reqState(){
 function drawReq(){
   const T=t(), st=reqState();
   const btn=document.getElementById('req-btn'), msg=document.getElementById('req-msg');
-  document.getElementById('req-contact').innerHTML=`📩 ${T.reqNeed} &nbsp;<b>${esc(D.contact||'')}</b>`;
+  document.getElementById('req-contact').innerHTML=`📩 ${T.reqNeed}`;
   btn.textContent=T.reqBtn; btn.disabled=!st.enabled; btn.classList.toggle('on',st.enabled);
   if(st.dataFresh){ const tm=new Date(D.generated_ms).toLocaleTimeString(T.loc,{hour:'2-digit',minute:'2-digit'});
     msg.innerHTML=T.reqFresh(tm); }
   else if(st.iReq){
     const failed=localStorage.getItem('bond_req_failed')==='1';
-    msg.innerHTML=`${failed?T.reqFail:T.reqSent} <b>${esc(D.contact||'')}</b>`;
+    msg.innerHTML=failed?`${T.reqFail} <b>${esc(D.contact||'')}</b>`:T.reqSent;
   }
   else { msg.innerHTML=''; }
 }
