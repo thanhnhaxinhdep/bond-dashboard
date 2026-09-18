@@ -11,11 +11,13 @@ const SITES = {
     owner: "thanhnhaxinhdep",
     repo: "bond-dashboard",
     workflow: "update.yml",
+    ref: "main",
   },
   "c-bond-market-data": {
     owner: "thanhnhaxinhdep",
     repo: "c-bond-market-data",
     workflow: "weekly-scrape.yml",
+    ref: "master",
   },
 };
 
@@ -77,7 +79,7 @@ export default {
           "User-Agent": "bond-dashboard-trigger-worker",
           "X-GitHub-Api-Version": "2022-11-28",
         },
-        body: JSON.stringify({ ref: "main" }),
+        body: JSON.stringify({ ref: site.ref }),
       }
     );
 
