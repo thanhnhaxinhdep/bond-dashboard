@@ -533,8 +533,9 @@ const L = {
   vi:{ title:'Thị trường Trái phiếu Doanh nghiệp — HNX',
     sub:'Top 20 theo giá trị giao dịch · gộp thị trường Riêng lẻ & Công chúng',
     private:'Riêng lẻ', public:'Công chúng', all:'Tất cả', updated:'Cập nhật',
-    reqNeed:'Cần dữ liệu mới hơn?', reqBtn:'🔄 Yêu cầu cập nhật',
-    reqFresh:tm=>'✓ Dữ liệu vừa cập nhật lúc '+tm, reqSent:'Đã ghi nhận. Please contact directly for details —',
+    reqNeed:'Cần dữ liệu mới hơn?', reqBtn:'🔄 Cập nhật ngay',
+    reqFresh:tm=>'✓ Dữ liệu vừa cập nhật lúc '+tm, reqSent:'Đã gửi yêu cầu cập nhật — dữ liệu mới sẽ có sau vài phút, tải lại trang để xem. Cần gấp hơn, liên hệ:',
+    reqFail:'Không gửi được yêu cầu. Vui lòng liên hệ trực tiếp:',
     detailH:'🔎 Chi tiết Top 20 (tra cứu mã)',
     detailHint:'Gõ mã để lọc & tự nhận Private/Công chúng. Các cột Clean Price/YTM/Duration/Rating/Danh mục sẽ bổ sung ở bước sau (cần file nội bộ).',
     lookupPh:'Nhập mã trái phiếu... (vd BAF126003)', thLoai:'Loại', thRem:'Còn lại (năm)',
@@ -562,8 +563,9 @@ const L = {
   en:{ title:'Corporate Bond Market — HNX',
     sub:'Top 20 by trading value · Private placement & Public offering combined',
     private:'Private', public:'Public', all:'All', updated:'Updated',
-    reqNeed:'Need fresher data?', reqBtn:'🔄 Request update',
-    reqFresh:tm=>'✓ Data just updated at '+tm, reqSent:'Noted. Please contact directly for details —',
+    reqNeed:'Need fresher data?', reqBtn:'🔄 Update now',
+    reqFresh:tm=>'✓ Data just updated at '+tm, reqSent:'Update requested — fresh data in a few minutes, reload to see it. Need it sooner, contact:',
+    reqFail:'Could not send the request. Please contact directly:',
     detailH:'🔎 Top 20 details (lookup)',
     detailHint:'Type a code to filter & auto-detect Private/Public. Clean Price/YTM/Duration/Rating/Portfolio columns coming next phase (need internal files).',
     lookupPh:'Enter bond code... (e.g. BAF126003)', thLoai:'Type', thRem:'Rem. (yrs)',
@@ -972,13 +974,20 @@ function drawReq(){
   btn.textContent=T.reqBtn; btn.disabled=!st.enabled; btn.classList.toggle('on',st.enabled);
   if(st.dataFresh){ const tm=new Date(D.generated_ms).toLocaleTimeString(T.loc,{hour:'2-digit',minute:'2-digit'});
     msg.innerHTML=T.reqFresh(tm); }
-  else if(st.iReq){ msg.innerHTML=`${T.reqSent} <b>${esc(D.contact||'')}</b>`; }
+  else if(st.iReq){
+    const failed=localStorage.getItem('bond_req_failed')==='1';
+    msg.innerHTML=`${failed?T.reqFail:T.reqSent} <b>${esc(D.contact||'')}</b>`;
+  }
   else { msg.innerHTML=''; }
 }
+const TRIGGER_URL='https://bond-dashboard-trigger.trigger-worker.workers.dev';
 document.getElementById('req-btn').onclick=()=>{
   if(!reqState().enabled) return;
-  try{ localStorage.setItem('bond_req', String(Date.now())); }catch(e){}
+  try{ localStorage.setItem('bond_req', String(Date.now())); localStorage.removeItem('bond_req_failed'); }catch(e){}
   drawReq();
+  fetch(TRIGGER_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({site:'bond-dashboard'})})
+    .then(r=>r.json()).then(r=>{ if(!r.ok){ try{localStorage.setItem('bond_req_failed','1');}catch(e){} drawReq(); } })
+    .catch(()=>{ try{localStorage.setItem('bond_req_failed','1');}catch(e){} drawReq(); });
 };
 setInterval(drawReq, 30000);
 
