@@ -97,5 +97,19 @@ jobs:
             exit 0
           fi
           git commit -m "Auto update $(date -u +%Y-%m-%d) [github-actions]"
-          git pull --rebase
-          git push
+          # Cac file du lieu (db/xlsx/csv) la snapshot tu dong sinh lai duoc, khong
+          # phai code tay - neu chay chong lan voi 1 lan chay khac (vd bam nut trigger
+          # 2 lan gan nhau), conflict tren file nhi phan la binh thuong va KHONG can
+          # merge that su: cu giu ban cua CHINH lan chay nay (-X ours) roi push, retry
+          # vai lan neu van bi tu choi do co lan push khac xen vao giua.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -X ours origin main && git push origin main; then
+              echo "Push thanh cong (lan thu $i)."
+              exit 0
+            fi
+            echo "Push/rebase that bai (lan $i) - fetch lai va thu tiep..."
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          echo "Khong push duoc sau nhieu lan thu."
+          exit 1
