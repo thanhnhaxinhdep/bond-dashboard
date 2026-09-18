@@ -1,4 +1,6 @@
-# chi publish index.html
-*
-!index.html
-!.gitignore
+pipeline/credit_rating/fitch-daily/node_modules/
+pipeline/data/HNX/daily/
+pipeline/credit_rating/fitch-daily/bao-cao/
+__pycache__/
+*.pyc
+pipeline/bond_dashboard.html

@@ -1,0 +1,1747 @@
+{
+  "_v": 2,
+  "ngay": "2026-08-14",
+  "entities": {
+    "Vietnam - All Entities": [
+      {
+        "entity_name": "Ho Chi Minh City Development Joint Stock Commercial Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97909597",
+        "entity_url": "https://www.fitchratings.com/entity/ho-chi-minh-city-development-joint-stock-commercial-bank-97909597",
+        "ratings": [
+          {
+            "rating": "BB-",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "13-Jul-2026",
+            "date_iso": "2026-07-13",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "13-Jul-2026",
+            "date_iso": "2026-07-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Viability Rating",
+            "action": "New Rating",
+            "date": "13-Jul-2026",
+            "date_iso": "2026-07-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "13-Jul-2026",
+            "date_iso": "2026-07-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Government Support Rating",
+            "action": "New Rating",
+            "date": "13-Jul-2026",
+            "date_iso": "2026-07-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "13-Jul-2026",
+            "date_iso": "2026-07-13",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Viet Capital Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97890589",
+        "entity_url": "https://www.fitchratings.com/entity/viet-capital-commercial-joint-stock-bank-97890589",
+        "ratings": [
+          {
+            "rating": "B+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Government Support Rating",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b",
+            "rating_type": "Viability Rating",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
+            "action": "New Rating",
+            "date": "25-Jun-2026",
+            "date_iso": "2026-06-25",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam",
+        "entity_type": "",
+        "entity_id": "80442269",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-80442269",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "16-Jun-2026",
+            "date_iso": "2026-06-16",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "16-Jun-2026",
+            "date_iso": "2026-06-16",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "16-Jun-2026",
+            "date_iso": "2026-06-16",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "16-Jun-2026",
+            "date_iso": "2026-06-16",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB+",
+            "rating_type": "Country Ceiling",
+            "action": "Affirmed",
+            "date": "16-Jun-2026",
+            "date_iso": "2026-06-16",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "PetroVietnam Power Corporation",
+        "entity_type": "",
+        "entity_id": "97128194",
+        "entity_url": "https://www.fitchratings.com/entity/petrovietnam-power-corporation-joint-stock-company-97128194",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-May-2026",
+            "date_iso": "2026-05-13",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Saigon Treasure Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "80361310",
+        "entity_url": "https://www.fitchratings.com/entity/saigon-thuong-tin-commercial-joint-stock-bank-80361310",
+        "ratings": [
+          {
+            "rating": "BB-",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Viability Rating",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "28-Apr-2026",
+            "date_iso": "2026-04-28",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "30-Jun-2014",
+            "date_iso": "2014-06-30",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating Floor",
+            "action": "Withdrawn",
+            "date": "30-Jun-2014",
+            "date_iso": "2014-06-30",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Individual Rating",
+            "action": "Withdrawn",
+            "date": "25-Jan-2012",
+            "date_iso": "2012-01-25",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "VietCredit General Finance Joint Stock Company",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97848393",
+        "entity_url": "https://www.fitchratings.com/entity/vietcredit-general-finance-joint-stock-company-97848393",
+        "ratings": [
+          {
+            "rating": "B-",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "21-Apr-2026",
+            "date_iso": "2026-04-21",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "New Rating",
+            "date": "21-Apr-2026",
+            "date_iso": "2026-04-21",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam Asia Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97756842",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-asia-commercial-joint-stock-bank-97756842",
+        "ratings": [
+          {
+            "rating": "B+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Viability Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Nam A Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97709010",
+        "entity_url": "https://www.fitchratings.com/entity/nam-a-commercial-joint-stock-bank-97709010",
+        "ratings": [
+          {
+            "rating": "B+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Viability Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "25-Feb-2026",
+            "date_iso": "2026-02-25",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam Thuong Tin Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97781512",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-thuong-tin-commercial-joint-stock-bank-97781512",
+        "ratings": [
+          {
+            "rating": "B+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b",
+            "rating_type": "Viability Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Government Support Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Bac A Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97790123",
+        "entity_url": "https://www.fitchratings.com/entity/bac-a-commercial-joint-stock-bank-97790123",
+        "ratings": [
+          {
+            "rating": "B+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b",
+            "rating_type": "Viability Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Government Support Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Ho Chi Minh City Power Corporation",
+        "entity_type": "",
+        "entity_id": "97012847",
+        "entity_url": "https://www.fitchratings.com/entity/ho-chi-minh-city-power-corporation-97012847",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Feb-2026",
+            "date_iso": "2026-02-13",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam Electricity",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "96630179",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-96630179",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Feb-2026",
+            "date_iso": "2026-02-13",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "bb",
+            "rating_type": "Standalone Credit Profile",
+            "action": "Affirmed",
+            "date": "13-Feb-2026",
+            "date_iso": "2026-02-13",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "PetroVietnam Gas Joint Stock Corporation",
+        "entity_type": "",
+        "entity_id": "97455191",
+        "entity_url": "https://www.fitchratings.com/entity/petrovietnam-gas-joint-stock-corporation-97455191",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Feb-2026",
+            "date_iso": "2026-02-13",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Northern Power Corporation",
+        "entity_type": "",
+        "entity_id": "97068875",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-northern-power-corporation-97068875",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Feb-2026",
+            "date_iso": "2026-02-13",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "National Power Transmission Corporation",
+        "entity_type": "",
+        "entity_id": "96745181",
+        "entity_url": "https://www.fitchratings.com/entity/national-power-transmission-corporation-96745181",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Feb-2026",
+            "date_iso": "2026-02-13",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Southern Power Corporation",
+        "entity_type": "",
+        "entity_id": "97062655",
+        "entity_url": "https://www.fitchratings.com/entity/southern-power-corporation-97062655",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Feb-2026",
+            "date_iso": "2026-02-13",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Hanoi Power Corporation",
+        "entity_type": "",
+        "entity_id": "96894665",
+        "entity_url": "https://www.fitchratings.com/entity/hanoi-power-corporation-96894665",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Feb-2026",
+            "date_iso": "2026-02-13",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Petrovietnam Refining and Petrochemical Corporation",
+        "entity_type": "",
+        "entity_id": "97506575",
+        "entity_url": "https://www.fitchratings.com/entity/binh-son-refining-petrochemical-joint-stock-company-97506575",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "10-Feb-2026",
+            "date_iso": "2026-02-10",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam National Industry - Energy Group",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "96764711",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-oil-gas-group-96764711",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Feb-2026",
+            "date_iso": "2026-02-06",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "bb+",
+            "rating_type": "Standalone Credit Profile",
+            "action": "Affirmed",
+            "date": "06-Feb-2026",
+            "date_iso": "2026-02-06",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "HSBC Bank (Vietnam) Ltd.",
+        "entity_type": "",
+        "entity_id": "97450504",
+        "entity_url": "https://www.fitchratings.com/entity/hsbc-bank-vietnam-ltd-97450504",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "F2",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb+",
+            "rating_type": "Shareholder Support Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BBB",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": "Outlook Stable"
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Standard Chartered Bank (Vietnam) Limited",
+        "entity_type": "",
+        "entity_id": "97093538",
+        "entity_url": "https://www.fitchratings.com/entity/standard-chartered-bank-vietnam-limited-97093538",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BBB",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "F2",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb+",
+            "rating_type": "Shareholder Support Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "22-Nov-2021",
+            "date_iso": "2021-11-22",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "ANZ Bank (Vietnam) Limited",
+        "entity_type": "",
+        "entity_id": "96835456",
+        "entity_url": "https://www.fitchratings.com/entity/anz-bank-vietnam-limited-96835456",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "F2",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb+",
+            "rating_type": "Shareholder Support Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BBB",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "13-Nov-2025",
+            "date_iso": "2025-11-13",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "22-Nov-2021",
+            "date_iso": "2021-11-22",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam Technological and Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97582606",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-technological-commercial-joint-stock-bank-97582606",
+        "ratings": [
+          {
+            "rating": "BB-",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Publish",
+            "date": "10-Nov-2025",
+            "date_iso": "2025-11-10",
+            "outlook_watch": "Outlook Positive"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Publish",
+            "date": "10-Nov-2025",
+            "date_iso": "2025-11-10",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Publish",
+            "date": "10-Nov-2025",
+            "date_iso": "2025-11-10",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Government Support Rating",
+            "action": "Publish",
+            "date": "10-Nov-2025",
+            "date_iso": "2025-11-10",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Publish",
+            "date": "10-Nov-2025",
+            "date_iso": "2025-11-10",
+            "outlook_watch": "Outlook Positive"
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Viability Rating",
+            "action": "Publish",
+            "date": "10-Nov-2025",
+            "date_iso": "2025-11-10",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "MB Shinsei Consumer Credit Finance Limited Liability Company",
+        "entity_type": "",
+        "entity_id": "97386845",
+        "entity_url": "https://www.fitchratings.com/entity/mb-shinsei-finance-limited-liability-company-97386845",
+        "ratings": [
+          {
+            "rating": "B+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "07-Nov-2025",
+            "date_iso": "2025-11-07",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "07-Nov-2025",
+            "date_iso": "2025-11-07",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Shareholder Support Rating",
+            "action": "Affirmed",
+            "date": "07-Nov-2025",
+            "date_iso": "2025-11-07",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Saigon - Hanoi Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "94255895",
+        "entity_url": "https://www.fitchratings.com/entity/saigon-hanoi-commercial-joint-stock-bank-94255895",
+        "ratings": [
+          {
+            "rating": "BB-",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Viability Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B+(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Asia Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "80362281",
+        "entity_url": "https://www.fitchratings.com/entity/asia-commercial-joint-stock-bank-80362281",
+        "ratings": [
+          {
+            "rating": "BB-",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": "Outlook Positive"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": "Outlook Positive"
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Viability Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating Floor",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Individual Rating",
+            "action": "Withdrawn",
+            "date": "25-Jan-2012",
+            "date_iso": "2012-01-25",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Military Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "95639290",
+        "entity_url": "https://www.fitchratings.com/entity/military-commercial-joint-stock-bank-95639290",
+        "ratings": [
+          {
+            "rating": "BB",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Viability Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "06-Nov-2025",
+            "date_iso": "2025-11-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating Floor",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam Bank for Agriculture and Rural Development",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "80092047",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-bank-for-agriculture-rural-development-80092047",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb+",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Viability Rating",
+            "action": "Upgrade",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B+(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Upgrade",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Upgrade",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "07-Sep-2018",
+            "date_iso": "2018-09-07",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating Floor",
+            "action": "Withdrawn",
+            "date": "07-Sep-2018",
+            "date_iso": "2018-09-07",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Individual Rating",
+            "action": "Withdrawn",
+            "date": "25-Jan-2012",
+            "date_iso": "2012-01-25",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam Joint Stock Commercial Bank for Industry and Trade",
+        "entity_type": "",
+        "entity_id": "80092048",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-joint-stock-commercial-bank-for-industry-trade-80092048",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Viability Rating",
+            "action": "Upgrade",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb+",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B+(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Upgrade",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Upgrade",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating Floor",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Individual Rating",
+            "action": "Withdrawn",
+            "date": "25-Jan-2012",
+            "date_iso": "2012-01-25",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Joint Stock Commercial Bank For Foreign Trade of Vietnam",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "80090442",
+        "entity_url": "https://www.fitchratings.com/entity/joint-stock-commercial-bank-for-foreign-trade-of-vietnam-80090442",
+        "ratings": [
+          {
+            "rating": "BB+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb+",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Viability Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "03-Nov-2025",
+            "date_iso": "2025-11-03",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating Floor",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Individual Rating",
+            "action": "Withdrawn",
+            "date": "20-Jul-2011",
+            "date_iso": "2011-07-20",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Central Power Corporation",
+        "entity_type": "",
+        "entity_id": "97087195",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-central-power-corporation-97087195",
+        "ratings": [
+          {
+            "rating": "WD",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Withdrawn",
+            "date": "12-Sep-2025",
+            "date_iso": "2025-09-12",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Home Credit Vietnam Finance Company Limited",
+        "entity_type": "",
+        "entity_id": "96645418",
+        "entity_url": "https://www.fitchratings.com/entity/home-credit-vietnam-finance-company-limited-96645418",
+        "ratings": [
+          {
+            "rating": "WD",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Withdrawn",
+            "date": "27-Apr-2023",
+            "date_iso": "2023-04-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Withdrawn",
+            "date": "27-Apr-2023",
+            "date_iso": "2023-04-27",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      }
+    ]
+  },
+  "securities": {
+    "Vietnam - All Entities": []
+  }
+}

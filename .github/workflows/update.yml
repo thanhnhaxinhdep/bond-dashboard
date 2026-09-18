@@ -1,0 +1,101 @@
+name: Update bond dashboard
+
+on:
+  schedule:
+    # 03:30 UTC = 10:30 ICT (sau khi file TPDN cong chung thuong da dang)
+    - cron: "30 3 * * *"
+    # 08:30 UTC = 15:30 ICT (sau khi bang gia rieng le cap nhat 15:03 ICT)
+    - cron: "30 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-bond-dashboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Fitch scraper (Node/Playwright) dependencies
+        run: npm ci
+        working-directory: pipeline/credit_rating/fitch-daily
+
+      - name: Install headless Chromium for Playwright
+        run: npx playwright install --with-deps chromium
+        working-directory: pipeline/credit_rating/fitch-daily
+
+      - name: Scrape private-placement bond board (HNX)
+        run: python scrape_hnx_outright.py --out data/HNX --wait 15
+        working-directory: pipeline
+
+      - name: Credit rating - FiinRatings
+        run: python scrape_fiinratings.py --append
+        working-directory: pipeline/credit_rating
+      - name: Credit rating - VIS Rating
+        run: python scrape_visrating.py --append
+        working-directory: pipeline/credit_rating
+      - name: Credit rating - Saigon Ratings
+        run: python scrape_saigonratings.py --append
+        working-directory: pipeline/credit_rating
+      - name: Credit rating - TMR
+        run: python scrape_tmr.py --append
+        working-directory: pipeline/credit_rating
+      - name: Credit rating - S&I Ratings
+        run: python scrape_sniratings.py --append
+        working-directory: pipeline/credit_rating
+
+      - name: Credit rating - Fitch (Playwright, best-effort)
+        run: node fitch-daily.js || echo "Fitch scrape loi/khong doi - dung snapshot cu"
+        working-directory: pipeline/credit_rating/fitch-daily
+
+      - name: Credit rating - Fitch snapshot to CSV
+        run: python fitch_to_csv.py
+        working-directory: pipeline/credit_rating
+      - name: Credit rating - merge all agencies
+        run: python merge_xhtn.py
+        working-directory: pipeline/credit_rating
+      - name: Credit rating - build equity-level ratings
+        run: python build_equity_ratings.py
+        working-directory: pipeline/credit_rating
+      - name: Credit rating - prune old dated snapshots
+        run: python cleanup_dated_outputs.py
+        working-directory: pipeline/credit_rating
+
+      - name: Build dashboard (public market + private board + ratings)
+        run: python bond_app.py --no-open --no-rating
+        working-directory: pipeline
+
+      - name: Publish dashboard to repo root
+        run: cp pipeline/bond_dashboard.html index.html
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Khong co gi thay doi."
+            exit 0
+          fi
+          git commit -m "Auto update $(date -u +%Y-%m-%d) [github-actions]"
+          git pull --rebase
+          git push
