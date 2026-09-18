@@ -535,7 +535,7 @@ const L = {
     private:'Riêng lẻ', public:'Công chúng', all:'Tất cả', updated:'Cập nhật',
     reqNeed:'Cần dữ liệu mới hơn?', reqBtn:'🔄 Cập nhật ngay',
     reqFresh:tm=>'✓ Dữ liệu vừa cập nhật lúc '+tm, reqSent:'✓ Đã gửi yêu cầu cập nhật — dữ liệu mới sẽ có sau vài phút, tải lại trang để xem.',
-    reqFail:'Không gửi được yêu cầu. Vui lòng liên hệ trực tiếp:',
+    reqSending:'Đang gửi yêu cầu...', reqFail:'Không gửi được yêu cầu. Vui lòng liên hệ trực tiếp:',
     detailH:'🔎 Chi tiết Top 20 (tra cứu mã)',
     detailHint:'Gõ mã để lọc & tự nhận Private/Công chúng. Các cột Clean Price/YTM/Duration/Rating/Danh mục sẽ bổ sung ở bước sau (cần file nội bộ).',
     lookupPh:'Nhập mã trái phiếu... (vd BAF126003)', thLoai:'Loại', thRem:'Còn lại (năm)',
@@ -565,7 +565,7 @@ const L = {
     private:'Private', public:'Public', all:'All', updated:'Updated',
     reqNeed:'Need fresher data?', reqBtn:'🔄 Update now',
     reqFresh:tm=>'✓ Data just updated at '+tm, reqSent:'✓ Update requested — fresh data in a few minutes, reload to see it.',
-    reqFail:'Could not send the request. Please contact directly:',
+    reqSending:'Sending request...', reqFail:'Could not send the request. Please contact directly:',
     detailH:'🔎 Top 20 details (lookup)',
     detailHint:'Type a code to filter & auto-detect Private/Public. Clean Price/YTM/Duration/Rating/Portfolio columns coming next phase (need internal files).',
     lookupPh:'Enter bond code... (e.g. BAF126003)', thLoai:'Type', thRem:'Rem. (yrs)',
@@ -959,37 +959,27 @@ function exportTable(tableId, fname){
   document.body.appendChild(a); a.click(); a.remove();
 }
 
-// ---- request-update button (khong backend: dua tren do moi cua data + cooldown may) ----
-const REQ_COOL=(D.cooldown_min||30)*60*1000;
-function reqState(){
-  const age=Date.now()-(D.generated_ms||0);
-  const myLast=+(localStorage.getItem('bond_req')||0);
-  const dataFresh=age<REQ_COOL, iReq=(Date.now()-myLast)<REQ_COOL;
-  return {dataFresh,iReq,enabled:!dataFresh&&!iReq};
-}
+// ---- request-update button: goi thang Cloudflare Worker -> workflow_dispatch.
+// Repo public, GitHub Actions mien phi khong gioi han nen KHONG gioi han so
+// lan bam (khac fund-nav-dashboard, repo private, phai gioi han 4 tieng/lan).
 function drawReq(){
-  const T=t(), st=reqState();
-  const btn=document.getElementById('req-btn'), msg=document.getElementById('req-msg');
+  const T=t();
   document.getElementById('req-contact').innerHTML=`📩 ${T.reqNeed}`;
-  btn.textContent=T.reqBtn; btn.disabled=!st.enabled; btn.classList.toggle('on',st.enabled);
-  if(st.dataFresh){ const tm=new Date(D.generated_ms).toLocaleTimeString(T.loc,{hour:'2-digit',minute:'2-digit'});
-    msg.innerHTML=T.reqFresh(tm); }
-  else if(st.iReq){
-    const failed=localStorage.getItem('bond_req_failed')==='1';
-    msg.innerHTML=failed?`${T.reqFail} <b>${esc(D.contact||'')}</b>`:T.reqSent;
-  }
-  else { msg.innerHTML=''; }
+  const btn=document.getElementById('req-btn');
+  btn.textContent=T.reqBtn; btn.classList.add('on');
 }
 const TRIGGER_URL='https://bond-dashboard-trigger.trigger-worker.workers.dev';
 document.getElementById('req-btn').onclick=()=>{
-  if(!reqState().enabled) return;
-  try{ localStorage.setItem('bond_req', String(Date.now())); localStorage.removeItem('bond_req_failed'); }catch(e){}
-  drawReq();
+  const T=t(), btn=document.getElementById('req-btn'), msg=document.getElementById('req-msg');
+  btn.disabled=true;
+  msg.innerHTML=T.reqSending;
   fetch(TRIGGER_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({site:'bond-dashboard'})})
-    .then(r=>r.json()).then(r=>{ if(!r.ok){ try{localStorage.setItem('bond_req_failed','1');}catch(e){} drawReq(); } })
-    .catch(()=>{ try{localStorage.setItem('bond_req_failed','1');}catch(e){} drawReq(); });
+    .then(r=>r.json()).then(r=>{
+      btn.disabled=false;
+      msg.innerHTML = r.ok ? T.reqSent : `${T.reqFail} <b>${esc(D.contact||'')}</b>`;
+    })
+    .catch(()=>{ btn.disabled=false; msg.innerHTML=`${T.reqFail} <b>${esc(D.contact||'')}</b>`; });
 };
-setInterval(drawReq, 30000);
 
 // ================= CREDIT RATING TAB =================
 const RR = D.rating_records||[];
