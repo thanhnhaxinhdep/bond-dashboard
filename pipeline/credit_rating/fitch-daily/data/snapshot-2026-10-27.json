@@ -250,6 +250,40 @@
         "has_more_ratings": false
       },
       {
+        "entity_name": "MB Shinsei Consumer Credit Finance Limited Liability Company",
+        "entity_type": "",
+        "entity_id": "97386845",
+        "entity_url": "https://www.fitchratings.com/entity/mb-shinsei-finance-limited-liability-company-97386845",
+        "ratings": [
+          {
+            "rating": "B+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Shareholder Support Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
         "entity_name": "National Power Transmission Corporation",
         "entity_type": "",
         "entity_id": "96745181",
@@ -672,10 +706,10 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Hanoi Power Corporation",
+        "entity_name": "Northern Power Corporation",
         "entity_type": "",
-        "entity_id": "96894665",
-        "entity_url": "https://www.fitchratings.com/entity/hanoi-power-corporation-96894665",
+        "entity_id": "97068875",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-northern-power-corporation-97068875",
         "ratings": [
           {
             "rating": "BB+",
@@ -690,10 +724,10 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Northern Power Corporation",
+        "entity_name": "Hanoi Power Corporation",
         "entity_type": "",
-        "entity_id": "97068875",
-        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-northern-power-corporation-97068875",
+        "entity_id": "96894665",
+        "entity_url": "https://www.fitchratings.com/entity/hanoi-power-corporation-96894665",
         "ratings": [
           {
             "rating": "BB+",
@@ -1581,40 +1615,6 @@
             "action": "Withdrawn",
             "date": "22-Nov-2021",
             "date_iso": "2021-11-22",
-            "outlook_watch": ""
-          }
-        ],
-        "view": "data",
-        "has_more_ratings": false
-      },
-      {
-        "entity_name": "MB Shinsei Consumer Credit Finance Limited Liability Company",
-        "entity_type": "",
-        "entity_id": "97386845",
-        "entity_url": "https://www.fitchratings.com/entity/mb-shinsei-finance-limited-liability-company-97386845",
-        "ratings": [
-          {
-            "rating": "B+",
-            "rating_type": "Long Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "07-Nov-2025",
-            "date_iso": "2025-11-07",
-            "outlook_watch": "Outlook Stable"
-          },
-          {
-            "rating": "B",
-            "rating_type": "Short Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "07-Nov-2025",
-            "date_iso": "2025-11-07",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "b+",
-            "rating_type": "Shareholder Support Rating",
-            "action": "Affirmed",
-            "date": "07-Nov-2025",
-            "date_iso": "2025-11-07",
             "outlook_watch": ""
           }
         ],
