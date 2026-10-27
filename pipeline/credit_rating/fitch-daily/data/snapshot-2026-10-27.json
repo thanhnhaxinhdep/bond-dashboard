@@ -4,6 +4,252 @@
   "entities": {
     "Vietnam - All Entities": [
       {
+        "entity_name": "Military Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "95639290",
+        "entity_url": "https://www.fitchratings.com/entity/military-commercial-joint-stock-bank-95639290",
+        "ratings": [
+          {
+            "rating": "BB",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Viability Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB-(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating Floor",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam Technological and Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97582606",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-technological-commercial-joint-stock-bank-97582606",
+        "ratings": [
+          {
+            "rating": "BB",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Upgrade",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Upgrade",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "bb",
+            "rating_type": "Viability Rating",
+            "action": "Upgrade",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Asia Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "80362281",
+        "entity_url": "https://www.fitchratings.com/entity/asia-commercial-joint-stock-bank-80362281",
+        "ratings": [
+          {
+            "rating": "BB",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Upgrade",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb-",
+            "rating_type": "Government Support Rating",
+            "action": "Affirmed",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "bb",
+            "rating_type": "Viability Rating",
+            "action": "Upgrade",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "BB",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Upgrade",
+            "date": "27-Oct-2026",
+            "date_iso": "2026-10-27",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Support Rating Floor",
+            "action": "Withdrawn",
+            "date": "06-Dec-2021",
+            "date_iso": "2021-12-06",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "WD",
+            "rating_type": "Individual Rating",
+            "action": "Withdrawn",
+            "date": "25-Jan-2012",
+            "date_iso": "2012-01-25",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
         "entity_name": "National Power Transmission Corporation",
         "entity_type": "",
         "entity_id": "96745181",
@@ -426,10 +672,10 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Northern Power Corporation",
+        "entity_name": "Hanoi Power Corporation",
         "entity_type": "",
-        "entity_id": "97068875",
-        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-northern-power-corporation-97068875",
+        "entity_id": "96894665",
+        "entity_url": "https://www.fitchratings.com/entity/hanoi-power-corporation-96894665",
         "ratings": [
           {
             "rating": "BB+",
@@ -444,10 +690,10 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Hanoi Power Corporation",
+        "entity_name": "Northern Power Corporation",
         "entity_type": "",
-        "entity_id": "96894665",
-        "entity_url": "https://www.fitchratings.com/entity/hanoi-power-corporation-96894665",
+        "entity_id": "97068875",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-northern-power-corporation-97068875",
         "ratings": [
           {
             "rating": "BB+",
@@ -1342,64 +1588,6 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Vietnam Technological and Commercial Joint Stock Bank",
-        "entity_type": "Ultimate Parent",
-        "entity_id": "97582606",
-        "entity_url": "https://www.fitchratings.com/entity/vietnam-technological-commercial-joint-stock-bank-97582606",
-        "ratings": [
-          {
-            "rating": "BB-",
-            "rating_type": "Long Term Issuer Default Rating",
-            "action": "Publish",
-            "date": "10-Nov-2025",
-            "date_iso": "2025-11-10",
-            "outlook_watch": "Outlook Positive"
-          },
-          {
-            "rating": "B",
-            "rating_type": "Short Term Issuer Default Rating",
-            "action": "Publish",
-            "date": "10-Nov-2025",
-            "date_iso": "2025-11-10",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B",
-            "rating_type": "Local Currency Short Term Issuer Default Rating",
-            "action": "Publish",
-            "date": "10-Nov-2025",
-            "date_iso": "2025-11-10",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "bb-",
-            "rating_type": "Government Support Rating",
-            "action": "Publish",
-            "date": "10-Nov-2025",
-            "date_iso": "2025-11-10",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "BB-",
-            "rating_type": "Local Currency Long Term Issuer Default Rating",
-            "action": "Publish",
-            "date": "10-Nov-2025",
-            "date_iso": "2025-11-10",
-            "outlook_watch": "Outlook Positive"
-          },
-          {
-            "rating": "bb-",
-            "rating_type": "Viability Rating",
-            "action": "Publish",
-            "date": "10-Nov-2025",
-            "date_iso": "2025-11-10",
-            "outlook_watch": ""
-          }
-        ],
-        "view": "data",
-        "has_more_ratings": false
-      },
-      {
         "entity_name": "MB Shinsei Consumer Credit Finance Limited Liability Company",
         "entity_type": "",
         "entity_id": "97386845",
@@ -1501,194 +1689,6 @@
             "action": "Affirmed",
             "date": "06-Nov-2025",
             "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          }
-        ],
-        "view": "data",
-        "has_more_ratings": false
-      },
-      {
-        "entity_name": "Asia Commercial Joint Stock Bank",
-        "entity_type": "Ultimate Parent",
-        "entity_id": "80362281",
-        "entity_url": "https://www.fitchratings.com/entity/asia-commercial-joint-stock-bank-80362281",
-        "ratings": [
-          {
-            "rating": "BB-",
-            "rating_type": "Long Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": "Outlook Positive"
-          },
-          {
-            "rating": "B",
-            "rating_type": "Short Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "bb-",
-            "rating_type": "Government Support Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "BB-",
-            "rating_type": "Local Currency Long Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": "Outlook Positive"
-          },
-          {
-            "rating": "bb-",
-            "rating_type": "Viability Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B",
-            "rating_type": "Local Currency Short Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "WD",
-            "rating_type": "Support Rating",
-            "action": "Withdrawn",
-            "date": "06-Dec-2021",
-            "date_iso": "2021-12-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "WD",
-            "rating_type": "Support Rating Floor",
-            "action": "Withdrawn",
-            "date": "06-Dec-2021",
-            "date_iso": "2021-12-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "WD",
-            "rating_type": "Individual Rating",
-            "action": "Withdrawn",
-            "date": "25-Jan-2012",
-            "date_iso": "2012-01-25",
-            "outlook_watch": ""
-          }
-        ],
-        "view": "data",
-        "has_more_ratings": false
-      },
-      {
-        "entity_name": "Military Commercial Joint Stock Bank",
-        "entity_type": "Ultimate Parent",
-        "entity_id": "95639290",
-        "entity_url": "https://www.fitchratings.com/entity/military-commercial-joint-stock-bank-95639290",
-        "ratings": [
-          {
-            "rating": "BB",
-            "rating_type": "Long Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": "Outlook Stable"
-          },
-          {
-            "rating": "B",
-            "rating_type": "Short Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "bb",
-            "rating_type": "Government Support Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "BB",
-            "rating_type": "Local Currency Long Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": "Outlook Stable"
-          },
-          {
-            "rating": "bb-",
-            "rating_type": "Viability Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B",
-            "rating_type": "Local Currency Short Term Issuer Default Rating",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "BB-(xgs)",
-            "rating_type": "Long Term Issuer Default Rating (xgs)",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B(xgs)",
-            "rating_type": "Short Term Issuer Default Rating (xgs)",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "BB-(xgs)",
-            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B(xgs)",
-            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
-            "action": "Affirmed",
-            "date": "06-Nov-2025",
-            "date_iso": "2025-11-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "WD",
-            "rating_type": "Support Rating",
-            "action": "Withdrawn",
-            "date": "06-Dec-2021",
-            "date_iso": "2021-12-06",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "WD",
-            "rating_type": "Support Rating Floor",
-            "action": "Withdrawn",
-            "date": "06-Dec-2021",
-            "date_iso": "2021-12-06",
             "outlook_watch": ""
           }
         ],
