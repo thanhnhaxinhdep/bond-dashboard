@@ -2,15 +2,16 @@
 """
 Scrape ket qua xep hang tin nhiem (XHTN) tu TMR - Xep Hang Tin Nhiem Thien Minh.
 
-Nguon: https://tmr.vn/ket-qua-xep-hang-1/
+Nguon: https://www.tmr.vn/xep-hang-tin-nhiem/
+(trang cu /ket-qua-xep-hang-1/ da bi go - tu 10/2026 TMR doi web: bang TablePress
+cu thay bang DataTables, nhung toan bo dong van nam san trong HTML, khong phan
+trang phia server.)
 
-Trang dung TablePress, khong phan trang - toan bo dong nam san trong HTML.
-Bang ket qua la <table id="tablepress-5">, moi dong 9 <td>.
-LUU Y: trang con 1 bang khac (tablepress-7 = thong ke nghia vu no) phai loai tru.
-
-Cot tren web: TEN TO CHUC | LOAI HINH | HANH DONG XEP HANG | NGAY XEP HANG |
-              LOAI XEP HANG | XEP HANG | TRIEN VONG | MA TRAI PHIEU | CHI TIET
-(khac 2 nguon kia: ten dung truoc, ngay o cot thu 4)
+Bang ket qua la <table class="all-reports-table">, moi dong 10 <td>:
+  NGAY | TO CHUC PHAT HANH (link) | NGANH NGHE | LOAI XEP HANG | MA TRAI PHIEU |
+  HANH DONG | XEP HANG (hang + mo ta) | TRIEN VONG | BAO CAO (link) | REPORT TYPE
+Trang con 2 bang khac (tmr-rating-table__table = bang giai thich bac) phai loai tru.
+Web moi khong con cot "Loai hinh" (Doanh nghiep / Dinh che Tai chinh).
 
 Chay:
     python scrape_tmr.py
@@ -33,9 +34,9 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-BASE = "https://tmr.vn"
-LIST_URL = f"{BASE}/ket-qua-xep-hang-1/"
-TABLE_ID = "tablepress-5"
+BASE = "https://www.tmr.vn"
+LIST_URL = f"{BASE}/xep-hang-tin-nhiem/"
+TABLE_CLASS = "all-reports-table"
 
 HEADERS = {
     "User-Agent": (
@@ -49,7 +50,7 @@ HEADERS = {
 CRA_NAME = "TMR"
 
 # Dung de nhan dien dung bang neu TablePress doi id
-EXPECTED_HEADERS = {"tên tổ chức", "ngày xếp hạng", "xếp hạng"}
+EXPECTED_HEADERS = {"ngày", "tổ chức phát hành", "xếp hạng"}
 
 COLUMNS = [
     "ngay_cong_bo", "to_chuc_phat_hanh", "linh_vuc", "loai_hinh",
@@ -80,15 +81,15 @@ def norm_date(raw):
 
 
 def pick_table(soup):
-    t = soup.find("table", id=TABLE_ID)
+    t = soup.find("table", class_=TABLE_CLASS)
     if t is not None:
         return t
-    # Du phong: chon bang co header khop, khong lay bang thong ke nghia vu no
+    # Du phong: chon bang co header khop, khong lay bang giai thich bac
     for cand in soup.find_all("table"):
         heads = {th.get_text(" ", strip=True).lower()
                  for th in cand.find_all("th")}
         if EXPECTED_HEADERS <= heads:
-            print(f"  ! khong thay #{TABLE_ID}, dung bang id={cand.get('id')}",
+            print(f"  ! khong thay table.{TABLE_CLASS}, dung bang id={cand.get('id')}",
                   file=sys.stderr)
             return cand
     raise RuntimeError("khong tim thay bang ket qua - website da doi cau truc")
@@ -106,30 +107,41 @@ def parse_rows(soup, scraped_at):
             skipped += 1
             continue
 
-        ten = _txt(tds[0])
-        loai_hinh = _txt(tds[1])          # Doanh nghiep / Dinh che Tai chinh
-        trang_thai = _txt(tds[2])         # Hanh dong xep hang
-        ngay = norm_date(tds[3].get_text(" ", strip=True))
-        # 'Xep hang to chuc phat hanh' -> 'To chuc phat hanh' (viet hoa dau cau
-        # cho khop cach viet cua cac nguon khac)
-        loai_y_kien = _txt(tds[4])
-        if loai_y_kien:
-            loai_y_kien = re.sub(r"^Xếp hạng\s+", "", loai_y_kien).strip()
-            loai_y_kien = loai_y_kien[:1].upper() + loai_y_kien[1:] or None
-        ket_qua = _txt(tds[5])
-        trien_vong = _txt(tds[6])
-        ma_tp = _txt(tds[7])
+        ngay = norm_date(tds[0].get_text(" ", strip=True))
+        ten = _txt(tds[1])
+        linh_vuc = _txt(tds[2])
+        ma_tp = _txt(tds[4])
+        hanh_dong = _txt(tds[5])
+        # 'Lan dau' / 'Cap nhat' -> gia tri cu ('Xep hang lan dau' / 'Cap nhat ket qua XHTN') cho khop cach viet cu / cac nguon khac
+        hd = (hanh_dong or "").lower()
+        trang_thai = ("Xếp hạng lần đầu" if hd == "lần đầu"
+                      else "Cập nhật kết quả XHTN" if hd == "cập nhật"
+                      else hanh_dong)
+        # Cot xep hang = hang + doan mo ta dai ("A- Chat luong tin dung cao ...")
+        # -> chi lay hang (AAA..D kem +/-)
+        xh = _txt(tds[6])
+        m = re.match(r"([A-D]{1,3}[+-]?)(?=\s|$)", xh or "")
+        ket_qua = m.group(1) if m else xh
+        trien_vong = _txt(tds[7])
 
         a = tds[8].find("a")
         href = (a.get("href") or "").strip() if a else ""
         if href.startswith("/"):
             href = BASE + href
 
+        # 'Report type' (cot an): 'To chuc phat hanh' / 'Cong cu no'. Neu thieu thi
+        # suy tu 'Loai xep hang' ('To chuc phat hanh dai han' ...).
+        loai_y_kien = _txt(tds[9]) if len(tds) > 9 else None
+        if not loai_y_kien:
+            lx = _txt(tds[3]) or ""
+            loai_y_kien = ("Tổ chức phát hành" if lx.lower().startswith("tổ chức")
+                           else "Công cụ nợ" if lx.lower().startswith("công cụ") else lx or None)
+
         records.append({
             "ngay_cong_bo": ngay,
             "to_chuc_phat_hanh": ten,
-            "linh_vuc": None,        # TMR khong cong bo nganh o bang nay
-            "loai_hinh": loai_hinh,
+            "linh_vuc": linh_vuc,
+            "loai_hinh": None,       # web moi khong con cot nay
             "trang_thai_xep_hang": trang_thai,
             "loai_y_kien": loai_y_kien,
             "ky_han": None,

@@ -47,19 +47,27 @@ jobs:
         run: python scrape_hnx_outright.py --out data/HNX --wait 15
         working-directory: pipeline
 
+      # Moi nguon xep hang la best-effort: 1 trang doi cau truc/404 (vd TMR 10/2026)
+      # khong duoc chan ca pipeline - merge_xhtn.py tu lay file <nguon>_xhtn_<ngay>.csv
+      # moi nhat con trong output/ cua nguon do (snapshot cu).
       - name: Credit rating - FiinRatings
+        continue-on-error: true
         run: python scrape_fiinratings.py --append
         working-directory: pipeline/credit_rating
       - name: Credit rating - VIS Rating
+        continue-on-error: true
         run: python scrape_visrating.py --append
         working-directory: pipeline/credit_rating
       - name: Credit rating - Saigon Ratings
+        continue-on-error: true
         run: python scrape_saigonratings.py --append
         working-directory: pipeline/credit_rating
       - name: Credit rating - TMR
+        continue-on-error: true
         run: python scrape_tmr.py --append
         working-directory: pipeline/credit_rating
       - name: Credit rating - S&I Ratings
+        continue-on-error: true
         run: python scrape_sniratings.py --append
         working-directory: pipeline/credit_rating
 
