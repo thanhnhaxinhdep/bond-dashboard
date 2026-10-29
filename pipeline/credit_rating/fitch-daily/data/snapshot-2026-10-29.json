@@ -764,10 +764,10 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Hanoi Power Corporation",
+        "entity_name": "Northern Power Corporation",
         "entity_type": "",
-        "entity_id": "96894665",
-        "entity_url": "https://www.fitchratings.com/entity/hanoi-power-corporation-96894665",
+        "entity_id": "97068875",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-northern-power-corporation-97068875",
         "ratings": [
           {
             "rating": "BB+",
@@ -782,10 +782,10 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Northern Power Corporation",
+        "entity_name": "Hanoi Power Corporation",
         "entity_type": "",
-        "entity_id": "97068875",
-        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-northern-power-corporation-97068875",
+        "entity_id": "96894665",
+        "entity_url": "https://www.fitchratings.com/entity/hanoi-power-corporation-96894665",
         "ratings": [
           {
             "rating": "BB+",
