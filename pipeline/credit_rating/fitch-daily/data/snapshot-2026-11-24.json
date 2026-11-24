@@ -1166,24 +1166,6 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Southern Power Corporation",
-        "entity_type": "",
-        "entity_id": "97062655",
-        "entity_url": "https://www.fitchratings.com/entity/southern-power-corporation-97062655",
-        "ratings": [
-          {
-            "rating": "WD",
-            "rating_type": "Long Term Issuer Default Rating",
-            "action": "Withdrawn",
-            "date": "07-Sep-2026",
-            "date_iso": "2026-09-07",
-            "outlook_watch": ""
-          }
-        ],
-        "view": "data",
-        "has_more_ratings": false
-      },
-      {
         "entity_name": "Ho Chi Minh City Power Corporation",
         "entity_type": "",
         "entity_id": "97012847",
@@ -1202,10 +1184,28 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Northern Power Corporation",
+        "entity_name": "Southern Power Corporation",
         "entity_type": "",
-        "entity_id": "97068875",
-        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-northern-power-corporation-97068875",
+        "entity_id": "97062655",
+        "entity_url": "https://www.fitchratings.com/entity/southern-power-corporation-97062655",
+        "ratings": [
+          {
+            "rating": "WD",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Withdrawn",
+            "date": "07-Sep-2026",
+            "date_iso": "2026-09-07",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Hanoi Power Corporation",
+        "entity_type": "",
+        "entity_id": "96894665",
+        "entity_url": "https://www.fitchratings.com/entity/hanoi-power-corporation-96894665",
         "ratings": [
           {
             "rating": "BB+",
@@ -1220,10 +1220,10 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Hanoi Power Corporation",
+        "entity_name": "Northern Power Corporation",
         "entity_type": "",
-        "entity_id": "96894665",
-        "entity_url": "https://www.fitchratings.com/entity/hanoi-power-corporation-96894665",
+        "entity_id": "97068875",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-electricity-northern-power-corporation-97068875",
         "ratings": [
           {
             "rating": "BB+",
@@ -1582,96 +1582,6 @@
         "has_more_ratings": false
       },
       {
-        "entity_name": "Vietnam Thuong Tin Commercial Joint Stock Bank",
-        "entity_type": "Ultimate Parent",
-        "entity_id": "97781512",
-        "entity_url": "https://www.fitchratings.com/entity/vietnam-thuong-tin-commercial-joint-stock-bank-97781512",
-        "ratings": [
-          {
-            "rating": "B+",
-            "rating_type": "Long Term Issuer Default Rating",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": "Outlook Stable"
-          },
-          {
-            "rating": "B",
-            "rating_type": "Short Term Issuer Default Rating",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "b",
-            "rating_type": "Viability Rating",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B+",
-            "rating_type": "Local Currency Long Term Issuer Default Rating",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": "Outlook Stable"
-          },
-          {
-            "rating": "b+",
-            "rating_type": "Government Support Rating",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B",
-            "rating_type": "Local Currency Short Term Issuer Default Rating",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B(xgs)",
-            "rating_type": "Long Term Issuer Default Rating (xgs)",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B(xgs)",
-            "rating_type": "Short Term Issuer Default Rating (xgs)",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B(xgs)",
-            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": ""
-          },
-          {
-            "rating": "B(xgs)",
-            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
-            "action": "Review - No Action",
-            "date": "24-Feb-2026",
-            "date_iso": "2026-02-24",
-            "outlook_watch": ""
-          }
-        ],
-        "view": "data",
-        "has_more_ratings": false
-      },
-      {
         "entity_name": "Bac A Commercial Joint Stock Bank",
         "entity_type": "Ultimate Parent",
         "entity_id": "97790123",
@@ -1752,6 +1662,96 @@
           {
             "rating": "B(xgs)",
             "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          }
+        ],
+        "view": "data",
+        "has_more_ratings": false
+      },
+      {
+        "entity_name": "Vietnam Thuong Tin Commercial Joint Stock Bank",
+        "entity_type": "Ultimate Parent",
+        "entity_id": "97781512",
+        "entity_url": "https://www.fitchratings.com/entity/vietnam-thuong-tin-commercial-joint-stock-bank-97781512",
+        "ratings": [
+          {
+            "rating": "B+",
+            "rating_type": "Long Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "B",
+            "rating_type": "Short Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "b",
+            "rating_type": "Viability Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B+",
+            "rating_type": "Local Currency Long Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": "Outlook Stable"
+          },
+          {
+            "rating": "b+",
+            "rating_type": "Government Support Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B",
+            "rating_type": "Local Currency Short Term Issuer Default Rating",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Long Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Short Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Long Term Issuer Default Rating (xgs)",
+            "action": "Review - No Action",
+            "date": "24-Feb-2026",
+            "date_iso": "2026-02-24",
+            "outlook_watch": ""
+          },
+          {
+            "rating": "B(xgs)",
+            "rating_type": "Local Currency Short Term Issuer Default Rating (xgs)",
             "action": "Review - No Action",
             "date": "24-Feb-2026",
             "date_iso": "2026-02-24",
